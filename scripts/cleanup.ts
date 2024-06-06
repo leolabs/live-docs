@@ -23,7 +23,11 @@ for await (const file of Deno.readDir(".")) {
       continue;
     }
 
-    outputLines.push(line);
+    const cleanLine = line
+      .replaceAll("&amp;gt;", "&gt;")
+      .replaceAll("&amp;lt;", "&lt;");
+
+    outputLines.push(cleanLine);
   }
 
   const finalOutputLines = outputLines.filter((l, i) => {
@@ -35,6 +39,7 @@ for await (const file of Deno.readDir(".")) {
   });
 
   console.log(`-> Removed ${lines.length - finalOutputLines.length} lines.`);
+  console.log();
 
   await Deno.writeFile(file.name, encoder.encode(finalOutputLines.join("\n")));
 }
