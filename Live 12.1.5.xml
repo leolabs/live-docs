@@ -248,10 +248,6 @@ Live API version 12.1.5
 <Doc>Return the integer represented by the given array of bytes.  bytes Holds the array of bytes to convert.  The argument must either support the buffer protocol or be an iterable object producing bytes. Bytes and bytearray are examples of built-in objects that support the buffer protocol.  byteorder The byte order used to represent the integer.  If byteorder is 'big', the most significant byte is at the beginning of the byte array.  If byteorder is 'little', the most significant byte is at the end of the byte array.  To request the native byte order of the host system, use `sys.byteorder' as the byte order value.  Default is to use 'big'.  signed Indicates whether two's complement is used to represent the integer.</Doc>
 <Value>Live.Application.Application.View.NavDirection.type<Description>Value</Description></Value>
 <Doc>type(object) -&gt; the object's typetype(name, bases, dict, **kwds) -&gt; a new type</Doc>
-<Value>Live.Application.Application.View.NavDirection.as_integer_ratio<Description>Value</Description></Value>
-<Doc>Return integer ratio.Return a pair of integers, whose ratio is exactly equal to the original intand with a positive denominator.&gt;&gt;&gt; (10).as_integer_ratio()(10, 1)&gt;&gt;&gt; (-10).as_integer_ratio()(-10, 1)&gt;&gt;&gt; (0).as_integer_ratio()(0, 1)</Doc>
-<Value>Live.Application.Application.View.NavDirection.bit_count<Description>Value</Description></Value>
-<Doc>Number of ones in the binary representation of the absolute value of self.Also known as the population count.&gt;&gt;&gt; bin(13)'0b1101'&gt;&gt;&gt; (13).bit_count()3</Doc>
 <Value>Live.Application.Application.View.NavDirection.bit_length<Description>Value</Description></Value>
 <Doc>Number of bits necessary to represent self in binary.&gt;&gt;&gt; bin(37)'0b100101'&gt;&gt;&gt; (37).bit_length()6</Doc>
 <Value>Live.Application.Application.View.NavDirection.conjugate<Description>Value</Description></Value>
@@ -377,10 +373,6 @@ Live API version 12.1.5
 <Doc>Specifies the characteristics of the message box, e.g. which buttons to show.</Doc>
 <Value>Live.Application.MessageButtons.type<Description>Value</Description></Value>
 <Doc>type(object) -&gt; the object's typetype(name, bases, dict, **kwds) -&gt; a new type</Doc>
-<Value>Live.Application.MessageButtons.as_integer_ratio<Description>Value</Description></Value>
-<Doc>Return integer ratio.Return a pair of integers, whose ratio is exactly equal to the original intand with a positive denominator.&gt;&gt;&gt; (10).as_integer_ratio()(10, 1)&gt;&gt;&gt; (-10).as_integer_ratio()(-10, 1)&gt;&gt;&gt; (0).as_integer_ratio()(0, 1)</Doc>
-<Value>Live.Application.MessageButtons.bit_count<Description>Value</Description></Value>
-<Doc>Number of ones in the binary representation of the absolute value of self.Also known as the population count.&gt;&gt;&gt; bin(13)'0b1101'&gt;&gt;&gt; (13).bit_count()3</Doc>
 <Value>Live.Application.MessageButtons.bit_length<Description>Value</Description></Value>
 <Doc>Number of bits necessary to represent self in binary.&gt;&gt;&gt; bin(37)'0b100101'&gt;&gt;&gt; (37).bit_length()6</Doc>
 <Value>Live.Application.MessageButtons.conjugate<Description>Value</Description></Value>
@@ -414,10 +406,6 @@ Live API version 12.1.5
 <Doc>Specifies the dialog type for Push.</Doc>
 <Value>Live.Application.PushDialogType.type<Description>Value</Description></Value>
 <Doc>type(object) -&gt; the object's typetype(name, bases, dict, **kwds) -&gt; a new type</Doc>
-<Value>Live.Application.PushDialogType.as_integer_ratio<Description>Value</Description></Value>
-<Doc>Return integer ratio.Return a pair of integers, whose ratio is exactly equal to the original intand with a positive denominator.&gt;&gt;&gt; (10).as_integer_ratio()(10, 1)&gt;&gt;&gt; (-10).as_integer_ratio()(-10, 1)&gt;&gt;&gt; (0).as_integer_ratio()(0, 1)</Doc>
-<Value>Live.Application.PushDialogType.bit_count<Description>Value</Description></Value>
-<Doc>Number of ones in the binary representation of the absolute value of self.Also known as the population count.&gt;&gt;&gt; bin(13)'0b1101'&gt;&gt;&gt; (13).bit_count()3</Doc>
 <Value>Live.Application.PushDialogType.bit_length<Description>Value</Description></Value>
 <Doc>Number of bits necessary to represent self in binary.&gt;&gt;&gt; bin(37)'0b100101'&gt;&gt;&gt; (37).bit_length()6</Doc>
 <Value>Live.Application.PushDialogType.conjugate<Description>Value</Description></Value>
@@ -444,10 +432,6 @@ Live API version 12.1.5
 <Doc>Return the integer represented by the given array of bytes.  bytes Holds the array of bytes to convert.  The argument must either support the buffer protocol or be an iterable object producing bytes. Bytes and bytearray are examples of built-in objects that support the buffer protocol.  byteorder The byte order used to represent the integer.  If byteorder is 'big', the most significant byte is at the beginning of the byte array.  If byteorder is 'little', the most significant byte is at the end of the byte array.  To request the native byte order of the host system, use `sys.byteorder' as the byte order value.  Default is to use 'big'.  signed Indicates whether two's complement is used to represent the integer.</Doc>
 <Value>Live.Application.UnavailableFeature.type<Description>Value</Description></Value>
 <Doc>type(object) -&gt; the object's typetype(name, bases, dict, **kwds) -&gt; a new type</Doc>
-<Value>Live.Application.UnavailableFeature.as_integer_ratio<Description>Value</Description></Value>
-<Doc>Return integer ratio.Return a pair of integers, whose ratio is exactly equal to the original intand with a positive denominator.&gt;&gt;&gt; (10).as_integer_ratio()(10, 1)&gt;&gt;&gt; (-10).as_integer_ratio()(-10, 1)&gt;&gt;&gt; (0).as_integer_ratio()(0, 1)</Doc>
-<Value>Live.Application.UnavailableFeature.bit_count<Description>Value</Description></Value>
-<Doc>Number of ones in the binary representation of the absolute value of self.Also known as the population count.&gt;&gt;&gt; bin(13)'0b1101'&gt;&gt;&gt; (13).bit_count()3</Doc>
 <Value>Live.Application.UnavailableFeature.bit_length<Description>Value</Description></Value>
 <Doc>Number of bits necessary to represent self in binary.&gt;&gt;&gt; bin(37)'0b100101'&gt;&gt;&gt; (37).bit_length()6</Doc>
 <Value>Live.Application.UnavailableFeature.conjugate<Description>Value</Description></Value>
@@ -736,11 +720,7 @@ Live API version 12.1.5
 <Doc>Return the integer represented by the given array of bytes.  bytes Holds the array of bytes to convert.  The argument must either support the buffer protocol or be an iterable object producing bytes. Bytes and bytearray are examples of built-in objects that support the buffer protocol.  byteorder The byte order used to represent the integer.  If byteorder is 'big', the most significant byte is at the beginning of the byte array.  If byteorder is 'little', the most significant byte is at the end of the byte array.  To request the native byte order of the host system, use `sys.byteorder' as the byte order value.  Default is to use 'big'.  signed Indicates whether two's complement is used to represent the integer.</Doc>
 <Value>Live.Browser.FilterType.type<Description>Value</Description></Value>
 <Doc>type(object) -&gt; the object's typetype(name, bases, dict, **kwds) -&gt; a new type</Doc>
-<Value>Live.Browser.FilterType.as_integer_ratio<Description>Value</Description></Value>
-<Doc>Return integer ratio.Return a pair of integers, whose ratio is exactly equal to the original intand with a positive denominator.&gt;&gt;&gt; (10).as_integer_ratio()(10, 1)&gt;&gt;&gt; (-10).as_integer_ratio()(-10, 1)&gt;&gt;&gt; (0).as_integer_ratio()(0, 1)</Doc>
 <Value>Live.Browser.FilterType.audio_effect_hotswap<Description>Value</Description></Value>
-<Value>Live.Browser.FilterType.bit_count<Description>Value</Description></Value>
-<Doc>Number of ones in the binary representation of the absolute value of self.Also known as the population count.&gt;&gt;&gt; bin(13)'0b1101'&gt;&gt;&gt; (13).bit_count()3</Doc>
 <Value>Live.Browser.FilterType.bit_length<Description>Value</Description></Value>
 <Doc>Number of bits necessary to represent self in binary.&gt;&gt;&gt; bin(37)'0b100101'&gt;&gt;&gt; (37).bit_length()6</Doc>
 <Value>Live.Browser.FilterType.conjugate<Description>Value</Description></Value>
@@ -776,10 +756,6 @@ Live API version 12.1.5
 <Value>Live.Browser.Relation.type<Description>Value</Description></Value>
 <Doc>type(object) -&gt; the object's typetype(name, bases, dict, **kwds) -&gt; a new type</Doc>
 <Value>Live.Browser.Relation.ancestor<Description>Value</Description></Value>
-<Value>Live.Browser.Relation.as_integer_ratio<Description>Value</Description></Value>
-<Doc>Return integer ratio.Return a pair of integers, whose ratio is exactly equal to the original intand with a positive denominator.&gt;&gt;&gt; (10).as_integer_ratio()(10, 1)&gt;&gt;&gt; (-10).as_integer_ratio()(-10, 1)&gt;&gt;&gt; (0).as_integer_ratio()(0, 1)</Doc>
-<Value>Live.Browser.Relation.bit_count<Description>Value</Description></Value>
-<Doc>Number of ones in the binary representation of the absolute value of self.Also known as the population count.&gt;&gt;&gt; bin(13)'0b1101'&gt;&gt;&gt; (13).bit_count()3</Doc>
 <Value>Live.Browser.Relation.bit_length<Description>Value</Description></Value>
 <Doc>Number of bits necessary to represent self in binary.&gt;&gt;&gt; bin(37)'0b100101'&gt;&gt;&gt; (37).bit_length()6</Doc>
 <Value>Live.Browser.Relation.conjugate<Description>Value</Description></Value>
@@ -1989,10 +1965,6 @@ Live API version 12.1.5
 <Doc>Return the integer represented by the given array of bytes.  bytes Holds the array of bytes to convert.  The argument must either support the buffer protocol or be an iterable object producing bytes. Bytes and bytearray are examples of built-in objects that support the buffer protocol.  byteorder The byte order used to represent the integer.  If byteorder is 'big', the most significant byte is at the beginning of the byte array.  If byteorder is 'little', the most significant byte is at the end of the byte array.  To request the native byte order of the host system, use `sys.byteorder' as the byte order value.  Default is to use 'big'.  signed Indicates whether two's complement is used to represent the integer.</Doc>
 <Value>Live.Clip.ClipLaunchQuantization.type<Description>Value</Description></Value>
 <Doc>type(object) -&gt; the object's typetype(name, bases, dict, **kwds) -&gt; a new type</Doc>
-<Value>Live.Clip.ClipLaunchQuantization.as_integer_ratio<Description>Value</Description></Value>
-<Doc>Return integer ratio.Return a pair of integers, whose ratio is exactly equal to the original intand with a positive denominator.&gt;&gt;&gt; (10).as_integer_ratio()(10, 1)&gt;&gt;&gt; (-10).as_integer_ratio()(-10, 1)&gt;&gt;&gt; (0).as_integer_ratio()(0, 1)</Doc>
-<Value>Live.Clip.ClipLaunchQuantization.bit_count<Description>Value</Description></Value>
-<Doc>Number of ones in the binary representation of the absolute value of self.Also known as the population count.&gt;&gt;&gt; bin(13)'0b1101'&gt;&gt;&gt; (13).bit_count()3</Doc>
 <Value>Live.Clip.ClipLaunchQuantization.bit_length<Description>Value</Description></Value>
 <Doc>Number of bits necessary to represent self in binary.&gt;&gt;&gt; bin(37)'0b100101'&gt;&gt;&gt; (37).bit_length()6</Doc>
 <Value>Live.Clip.ClipLaunchQuantization.conjugate<Description>Value</Description></Value>
@@ -2034,10 +2006,6 @@ Live API version 12.1.5
 <Doc>Return the integer represented by the given array of bytes.  bytes Holds the array of bytes to convert.  The argument must either support the buffer protocol or be an iterable object producing bytes. Bytes and bytearray are examples of built-in objects that support the buffer protocol.  byteorder The byte order used to represent the integer.  If byteorder is 'big', the most significant byte is at the beginning of the byte array.  If byteorder is 'little', the most significant byte is at the end of the byte array.  To request the native byte order of the host system, use `sys.byteorder' as the byte order value.  Default is to use 'big'.  signed Indicates whether two's complement is used to represent the integer.</Doc>
 <Value>Live.Clip.GridQuantization.type<Description>Value</Description></Value>
 <Doc>type(object) -&gt; the object's typetype(name, bases, dict, **kwds) -&gt; a new type</Doc>
-<Value>Live.Clip.GridQuantization.as_integer_ratio<Description>Value</Description></Value>
-<Doc>Return integer ratio.Return a pair of integers, whose ratio is exactly equal to the original intand with a positive denominator.&gt;&gt;&gt; (10).as_integer_ratio()(10, 1)&gt;&gt;&gt; (-10).as_integer_ratio()(-10, 1)&gt;&gt;&gt; (0).as_integer_ratio()(0, 1)</Doc>
-<Value>Live.Clip.GridQuantization.bit_count<Description>Value</Description></Value>
-<Doc>Number of ones in the binary representation of the absolute value of self.Also known as the population count.&gt;&gt;&gt; bin(13)'0b1101'&gt;&gt;&gt; (13).bit_count()3</Doc>
 <Value>Live.Clip.GridQuantization.bit_length<Description>Value</Description></Value>
 <Doc>Number of bits necessary to represent self in binary.&gt;&gt;&gt; bin(37)'0b100101'&gt;&gt;&gt; (37).bit_length()6</Doc>
 <Value>Live.Clip.GridQuantization.conjugate<Description>Value</Description></Value>
@@ -2075,10 +2043,6 @@ Live API version 12.1.5
 <Doc>Return the integer represented by the given array of bytes.  bytes Holds the array of bytes to convert.  The argument must either support the buffer protocol or be an iterable object producing bytes. Bytes and bytearray are examples of built-in objects that support the buffer protocol.  byteorder The byte order used to represent the integer.  If byteorder is 'big', the most significant byte is at the beginning of the byte array.  If byteorder is 'little', the most significant byte is at the end of the byte array.  To request the native byte order of the host system, use `sys.byteorder' as the byte order value.  Default is to use 'big'.  signed Indicates whether two's complement is used to represent the integer.</Doc>
 <Value>Live.Clip.LaunchMode.type<Description>Value</Description></Value>
 <Doc>type(object) -&gt; the object's typetype(name, bases, dict, **kwds) -&gt; a new type</Doc>
-<Value>Live.Clip.LaunchMode.as_integer_ratio<Description>Value</Description></Value>
-<Doc>Return integer ratio.Return a pair of integers, whose ratio is exactly equal to the original intand with a positive denominator.&gt;&gt;&gt; (10).as_integer_ratio()(10, 1)&gt;&gt;&gt; (-10).as_integer_ratio()(-10, 1)&gt;&gt;&gt; (0).as_integer_ratio()(0, 1)</Doc>
-<Value>Live.Clip.LaunchMode.bit_count<Description>Value</Description></Value>
-<Doc>Number of ones in the binary representation of the absolute value of self.Also known as the population count.&gt;&gt;&gt; bin(13)'0b1101'&gt;&gt;&gt; (13).bit_count()3</Doc>
 <Value>Live.Clip.LaunchMode.bit_length<Description>Value</Description></Value>
 <Doc>Number of bits necessary to represent self in binary.&gt;&gt;&gt; bin(37)'0b100101'&gt;&gt;&gt; (37).bit_length()6</Doc>
 <Value>Live.Clip.LaunchMode.conjugate<Description>Value</Description></Value>
@@ -2159,11 +2123,7 @@ Live API version 12.1.5
 <Doc>Return the integer represented by the given array of bytes.  bytes Holds the array of bytes to convert.  The argument must either support the buffer protocol or be an iterable object producing bytes. Bytes and bytearray are examples of built-in objects that support the buffer protocol.  byteorder The byte order used to represent the integer.  If byteorder is 'big', the most significant byte is at the beginning of the byte array.  If byteorder is 'little', the most significant byte is at the end of the byte array.  To request the native byte order of the host system, use `sys.byteorder' as the byte order value.  Default is to use 'big'.  signed Indicates whether two's complement is used to represent the integer.</Doc>
 <Value>Live.Clip.WarpMode.type<Description>Value</Description></Value>
 <Doc>type(object) -&gt; the object's typetype(name, bases, dict, **kwds) -&gt; a new type</Doc>
-<Value>Live.Clip.WarpMode.as_integer_ratio<Description>Value</Description></Value>
-<Doc>Return integer ratio.Return a pair of integers, whose ratio is exactly equal to the original intand with a positive denominator.&gt;&gt;&gt; (10).as_integer_ratio()(10, 1)&gt;&gt;&gt; (-10).as_integer_ratio()(-10, 1)&gt;&gt;&gt; (0).as_integer_ratio()(0, 1)</Doc>
 <Value>Live.Clip.WarpMode.beats<Description>Value</Description></Value>
-<Value>Live.Clip.WarpMode.bit_count<Description>Value</Description></Value>
-<Doc>Number of ones in the binary representation of the absolute value of self.Also known as the population count.&gt;&gt;&gt; bin(13)'0b1101'&gt;&gt;&gt; (13).bit_count()3</Doc>
 <Value>Live.Clip.WarpMode.bit_length<Description>Value</Description></Value>
 <Doc>Number of bits necessary to represent self in binary.&gt;&gt;&gt; bin(37)'0b100101'&gt;&gt;&gt; (37).bit_length()6</Doc>
 <Value>Live.Clip.WarpMode.complex<Description>Value</Description></Value>
@@ -2342,10 +2302,6 @@ Live API version 12.1.5
 <Doc>Return the integer represented by the given array of bytes.  bytes Holds the array of bytes to convert.  The argument must either support the buffer protocol or be an iterable object producing bytes. Bytes and bytearray are examples of built-in objects that support the buffer protocol.  byteorder The byte order used to represent the integer.  If byteorder is 'big', the most significant byte is at the beginning of the byte array.  If byteorder is 'little', the most significant byte is at the end of the byte array.  To request the native byte order of the host system, use `sys.byteorder' as the byte order value.  Default is to use 'big'.  signed Indicates whether two's complement is used to represent the integer.</Doc>
 <Value>Live.ClipSlot.ClipSlotPlayingState.type<Description>Value</Description></Value>
 <Doc>type(object) -&gt; the object's typetype(name, bases, dict, **kwds) -&gt; a new type</Doc>
-<Value>Live.ClipSlot.ClipSlotPlayingState.as_integer_ratio<Description>Value</Description></Value>
-<Doc>Return integer ratio.Return a pair of integers, whose ratio is exactly equal to the original intand with a positive denominator.&gt;&gt;&gt; (10).as_integer_ratio()(10, 1)&gt;&gt;&gt; (-10).as_integer_ratio()(-10, 1)&gt;&gt;&gt; (0).as_integer_ratio()(0, 1)</Doc>
-<Value>Live.ClipSlot.ClipSlotPlayingState.bit_count<Description>Value</Description></Value>
-<Doc>Number of ones in the binary representation of the absolute value of self.Also known as the population count.&gt;&gt;&gt; bin(13)'0b1101'&gt;&gt;&gt; (13).bit_count()3</Doc>
 <Value>Live.ClipSlot.ClipSlotPlayingState.bit_length<Description>Value</Description></Value>
 <Doc>Number of bits necessary to represent self in binary.&gt;&gt;&gt; bin(37)'0b100101'&gt;&gt;&gt; (37).bit_length()6</Doc>
 <Value>Live.ClipSlot.ClipSlotPlayingState.conjugate<Description>Value</Description></Value>
@@ -2566,10 +2522,6 @@ Live API version 12.1.5
 <Doc>Return the integer represented by the given array of bytes.  bytes Holds the array of bytes to convert.  The argument must either support the buffer protocol or be an iterable object producing bytes. Bytes and bytearray are examples of built-in objects that support the buffer protocol.  byteorder The byte order used to represent the integer.  If byteorder is 'big', the most significant byte is at the beginning of the byte array.  If byteorder is 'little', the most significant byte is at the end of the byte array.  To request the native byte order of the host system, use `sys.byteorder' as the byte order value.  Default is to use 'big'.  signed Indicates whether two's complement is used to represent the integer.</Doc>
 <Value>Live.Conversions.AudioToMidiType.type<Description>Value</Description></Value>
 <Doc>type(object) -&gt; the object's typetype(name, bases, dict, **kwds) -&gt; a new type</Doc>
-<Value>Live.Conversions.AudioToMidiType.as_integer_ratio<Description>Value</Description></Value>
-<Doc>Return integer ratio.Return a pair of integers, whose ratio is exactly equal to the original intand with a positive denominator.&gt;&gt;&gt; (10).as_integer_ratio()(10, 1)&gt;&gt;&gt; (-10).as_integer_ratio()(-10, 1)&gt;&gt;&gt; (0).as_integer_ratio()(0, 1)</Doc>
-<Value>Live.Conversions.AudioToMidiType.bit_count<Description>Value</Description></Value>
-<Doc>Number of ones in the binary representation of the absolute value of self.Also known as the population count.&gt;&gt;&gt; bin(13)'0b1101'&gt;&gt;&gt; (13).bit_count()3</Doc>
 <Value>Live.Conversions.AudioToMidiType.bit_length<Description>Value</Description></Value>
 <Doc>Number of bits necessary to represent self in binary.&gt;&gt;&gt; bin(37)'0b100101'&gt;&gt;&gt; (37).bit_length()6</Doc>
 <Value>Live.Conversions.AudioToMidiType.conjugate<Description>Value</Description></Value>
@@ -2728,12 +2680,8 @@ Live API version 12.1.5
 <Doc>Return the integer represented by the given array of bytes.  bytes Holds the array of bytes to convert.  The argument must either support the buffer protocol or be an iterable object producing bytes. Bytes and bytearray are examples of built-in objects that support the buffer protocol.  byteorder The byte order used to represent the integer.  If byteorder is 'big', the most significant byte is at the beginning of the byte array.  If byteorder is 'little', the most significant byte is at the end of the byte array.  To request the native byte order of the host system, use `sys.byteorder' as the byte order value.  Default is to use 'big'.  signed Indicates whether two's complement is used to represent the integer.</Doc>
 <Value>Live.Device.DeviceType.type<Description>Value</Description></Value>
 <Doc>type(object) -&gt; the object's typetype(name, bases, dict, **kwds) -&gt; a new type</Doc>
-<Value>Live.Device.DeviceType.as_integer_ratio<Description>Value</Description></Value>
-<Doc>Return integer ratio.Return a pair of integers, whose ratio is exactly equal to the original intand with a positive denominator.&gt;&gt;&gt; (10).as_integer_ratio()(10, 1)&gt;&gt;&gt; (-10).as_integer_ratio()(-10, 1)&gt;&gt;&gt; (0).as_integer_ratio()(0, 1)</Doc>
 <Value>Live.Device.DeviceType.audio_effect<Description>Value</Description></Value>
 <Doc>The type of the device.</Doc>
-<Value>Live.Device.DeviceType.bit_count<Description>Value</Description></Value>
-<Doc>Number of ones in the binary representation of the absolute value of self.Also known as the population count.&gt;&gt;&gt; bin(13)'0b1101'&gt;&gt;&gt; (13).bit_count()3</Doc>
 <Value>Live.Device.DeviceType.bit_length<Description>Value</Description></Value>
 <Doc>Number of bits necessary to represent self in binary.&gt;&gt;&gt; bin(37)'0b100101'&gt;&gt;&gt; (37).bit_length()6</Doc>
 <Value>Live.Device.DeviceType.conjugate<Description>Value</Description></Value>
@@ -2833,10 +2781,6 @@ Live API version 12.1.5
 <Doc>Return the integer represented by the given array of bytes.  bytes Holds the array of bytes to convert.  The argument must either support the buffer protocol or be an iterable object producing bytes. Bytes and bytearray are examples of built-in objects that support the buffer protocol.  byteorder The byte order used to represent the integer.  If byteorder is 'big', the most significant byte is at the beginning of the byte array.  If byteorder is 'little', the most significant byte is at the end of the byte array.  To request the native byte order of the host system, use `sys.byteorder' as the byte order value.  Default is to use 'big'.  signed Indicates whether two's complement is used to represent the integer.</Doc>
 <Value>Live.DeviceParameter.AutomationState.type<Description>Value</Description></Value>
 <Doc>type(object) -&gt; the object's typetype(name, bases, dict, **kwds) -&gt; a new type</Doc>
-<Value>Live.DeviceParameter.AutomationState.as_integer_ratio<Description>Value</Description></Value>
-<Doc>Return integer ratio.Return a pair of integers, whose ratio is exactly equal to the original intand with a positive denominator.&gt;&gt;&gt; (10).as_integer_ratio()(10, 1)&gt;&gt;&gt; (-10).as_integer_ratio()(-10, 1)&gt;&gt;&gt; (0).as_integer_ratio()(0, 1)</Doc>
-<Value>Live.DeviceParameter.AutomationState.bit_count<Description>Value</Description></Value>
-<Doc>Number of ones in the binary representation of the absolute value of self.Also known as the population count.&gt;&gt;&gt; bin(13)'0b1101'&gt;&gt;&gt; (13).bit_count()3</Doc>
 <Value>Live.DeviceParameter.AutomationState.bit_length<Description>Value</Description></Value>
 <Doc>Number of bits necessary to represent self in binary.&gt;&gt;&gt; bin(37)'0b100101'&gt;&gt;&gt; (37).bit_length()6</Doc>
 <Value>Live.DeviceParameter.AutomationState.conjugate<Description>Value</Description></Value>
@@ -2961,10 +2905,6 @@ Live API version 12.1.5
 <Doc>Return the integer represented by the given array of bytes.  bytes Holds the array of bytes to convert.  The argument must either support the buffer protocol or be an iterable object producing bytes. Bytes and bytearray are examples of built-in objects that support the buffer protocol.  byteorder The byte order used to represent the integer.  If byteorder is 'big', the most significant byte is at the beginning of the byte array.  If byteorder is 'little', the most significant byte is at the end of the byte array.  To request the native byte order of the host system, use `sys.byteorder' as the byte order value.  Default is to use 'big'.  signed Indicates whether two's complement is used to represent the integer.</Doc>
 <Value>Live.DeviceParameter.ParameterState.type<Description>Value</Description></Value>
 <Doc>type(object) -&gt; the object's typetype(name, bases, dict, **kwds) -&gt; a new type</Doc>
-<Value>Live.DeviceParameter.ParameterState.as_integer_ratio<Description>Value</Description></Value>
-<Doc>Return integer ratio.Return a pair of integers, whose ratio is exactly equal to the original intand with a positive denominator.&gt;&gt;&gt; (10).as_integer_ratio()(10, 1)&gt;&gt;&gt; (-10).as_integer_ratio()(-10, 1)&gt;&gt;&gt; (0).as_integer_ratio()(0, 1)</Doc>
-<Value>Live.DeviceParameter.ParameterState.bit_count<Description>Value</Description></Value>
-<Doc>Number of ones in the binary representation of the absolute value of self.Also known as the population count.&gt;&gt;&gt; bin(13)'0b1101'&gt;&gt;&gt; (13).bit_count()3</Doc>
 <Value>Live.DeviceParameter.ParameterState.bit_length<Description>Value</Description></Value>
 <Doc>Number of bits necessary to represent self in binary.&gt;&gt;&gt; bin(37)'0b100101'&gt;&gt;&gt; (37).bit_length()6</Doc>
 <Value>Live.DeviceParameter.ParameterState.conjugate<Description>Value</Description></Value>
@@ -3714,11 +3654,7 @@ Live API version 12.1.5
 <Value>Live.Eq8Device.EditMode.type<Description>Value</Description></Value>
 <Doc>type(object) -&gt; the object's typetype(name, bases, dict, **kwds) -&gt; a new type</Doc>
 <Value>Live.Eq8Device.EditMode.a<Description>Value</Description></Value>
-<Value>Live.Eq8Device.EditMode.as_integer_ratio<Description>Value</Description></Value>
-<Doc>Return integer ratio.Return a pair of integers, whose ratio is exactly equal to the original intand with a positive denominator.&gt;&gt;&gt; (10).as_integer_ratio()(10, 1)&gt;&gt;&gt; (-10).as_integer_ratio()(-10, 1)&gt;&gt;&gt; (0).as_integer_ratio()(0, 1)</Doc>
 <Value>Live.Eq8Device.EditMode.b<Description>Value</Description></Value>
-<Value>Live.Eq8Device.EditMode.bit_count<Description>Value</Description></Value>
-<Doc>Number of ones in the binary representation of the absolute value of self.Also known as the population count.&gt;&gt;&gt; bin(13)'0b1101'&gt;&gt;&gt; (13).bit_count()3</Doc>
 <Value>Live.Eq8Device.EditMode.bit_length<Description>Value</Description></Value>
 <Doc>Number of bits necessary to represent self in binary.&gt;&gt;&gt; bin(37)'0b100101'&gt;&gt;&gt; (37).bit_length()6</Doc>
 <Value>Live.Eq8Device.EditMode.conjugate<Description>Value</Description></Value>
@@ -3917,10 +3853,6 @@ Live API version 12.1.5
 <Doc>Return the integer represented by the given array of bytes.  bytes Holds the array of bytes to convert.  The argument must either support the buffer protocol or be an iterable object producing bytes. Bytes and bytearray are examples of built-in objects that support the buffer protocol.  byteorder The byte order used to represent the integer.  If byteorder is 'big', the most significant byte is at the beginning of the byte array.  If byteorder is 'little', the most significant byte is at the end of the byte array.  To request the native byte order of the host system, use `sys.byteorder' as the byte order value.  Default is to use 'big'.  signed Indicates whether two's complement is used to represent the integer.</Doc>
 <Value>Live.Eq8Device.GlobalMode.type<Description>Value</Description></Value>
 <Doc>type(object) -&gt; the object's typetype(name, bases, dict, **kwds) -&gt; a new type</Doc>
-<Value>Live.Eq8Device.GlobalMode.as_integer_ratio<Description>Value</Description></Value>
-<Doc>Return integer ratio.Return a pair of integers, whose ratio is exactly equal to the original intand with a positive denominator.&gt;&gt;&gt; (10).as_integer_ratio()(10, 1)&gt;&gt;&gt; (-10).as_integer_ratio()(-10, 1)&gt;&gt;&gt; (0).as_integer_ratio()(0, 1)</Doc>
-<Value>Live.Eq8Device.GlobalMode.bit_count<Description>Value</Description></Value>
-<Doc>Number of ones in the binary representation of the absolute value of self.Also known as the population count.&gt;&gt;&gt; bin(13)'0b1101'&gt;&gt;&gt; (13).bit_count()3</Doc>
 <Value>Live.Eq8Device.GlobalMode.bit_length<Description>Value</Description></Value>
 <Doc>Number of bits necessary to represent self in binary.&gt;&gt;&gt; bin(37)'0b100101'&gt;&gt;&gt; (37).bit_length()6</Doc>
 <Value>Live.Eq8Device.GlobalMode.conjugate<Description>Value</Description></Value>
@@ -3951,10 +3883,6 @@ Live API version 12.1.5
 <Doc>Return the integer represented by the given array of bytes.  bytes Holds the array of bytes to convert.  The argument must either support the buffer protocol or be an iterable object producing bytes. Bytes and bytearray are examples of built-in objects that support the buffer protocol.  byteorder The byte order used to represent the integer.  If byteorder is 'big', the most significant byte is at the beginning of the byte array.  If byteorder is 'little', the most significant byte is at the end of the byte array.  To request the native byte order of the host system, use `sys.byteorder' as the byte order value.  Default is to use 'big'.  signed Indicates whether two's complement is used to represent the integer.</Doc>
 <Value>Live.Groove.Base.type<Description>Value</Description></Value>
 <Doc>type(object) -&gt; the object's typetype(name, bases, dict, **kwds) -&gt; a new type</Doc>
-<Value>Live.Groove.Base.as_integer_ratio<Description>Value</Description></Value>
-<Doc>Return integer ratio.Return a pair of integers, whose ratio is exactly equal to the original intand with a positive denominator.&gt;&gt;&gt; (10).as_integer_ratio()(10, 1)&gt;&gt;&gt; (-10).as_integer_ratio()(-10, 1)&gt;&gt;&gt; (0).as_integer_ratio()(0, 1)</Doc>
-<Value>Live.Groove.Base.bit_count<Description>Value</Description></Value>
-<Doc>Number of ones in the binary representation of the absolute value of self.Also known as the population count.&gt;&gt;&gt; bin(13)'0b1101'&gt;&gt;&gt; (13).bit_count()3</Doc>
 <Value>Live.Groove.Base.bit_length<Description>Value</Description></Value>
 <Doc>Number of bits necessary to represent self in binary.&gt;&gt;&gt; bin(37)'0b100101'&gt;&gt;&gt; (37).bit_length()6</Doc>
 <Value>Live.Groove.Base.conjugate<Description>Value</Description></Value>
@@ -4421,10 +4349,6 @@ Live API version 12.1.5
 <Doc>abs(self)</Doc>
 <Value>Live.Licensing.TrialContext.type<Description>Value</Description></Value>
 <Doc>type(object) -&gt; the object's typetype(name, bases, dict, **kwds) -&gt; a new type</Doc>
-<Value>Live.Licensing.TrialContext.as_integer_ratio<Description>Value</Description></Value>
-<Doc>Return integer ratio.Return a pair of integers, whose ratio is exactly equal to the original intand with a positive denominator.&gt;&gt;&gt; (10).as_integer_ratio()(10, 1)&gt;&gt;&gt; (-10).as_integer_ratio()(-10, 1)&gt;&gt;&gt; (0).as_integer_ratio()(0, 1)</Doc>
-<Value>Live.Licensing.TrialContext.bit_count<Description>Value</Description></Value>
-<Doc>Number of ones in the binary representation of the absolute value of self.Also known as the population count.&gt;&gt;&gt; bin(13)'0b1101'&gt;&gt;&gt; (13).bit_count()3</Doc>
 <Value>Live.Licensing.TrialContext.bit_length<Description>Value</Description></Value>
 <Doc>Number of bits necessary to represent self in binary.&gt;&gt;&gt; bin(37)'0b100101'&gt;&gt;&gt; (37).bit_length()6</Doc>
 <Value>Live.Licensing.TrialContext.conjugate<Description>Value</Description></Value>
@@ -5119,10 +5043,6 @@ Live API version 12.1.5
 <Doc>type(object) -&gt; the object's typetype(name, bases, dict, **kwds) -&gt; a new type</Doc>
 <Value>Live.MidiMap.MapMode.absolute<Description>Value</Description></Value>
 <Value>Live.MidiMap.MapMode.absolute_14_bit<Description>Value</Description></Value>
-<Value>Live.MidiMap.MapMode.as_integer_ratio<Description>Value</Description></Value>
-<Doc>Return integer ratio.Return a pair of integers, whose ratio is exactly equal to the original intand with a positive denominator.&gt;&gt;&gt; (10).as_integer_ratio()(10, 1)&gt;&gt;&gt; (-10).as_integer_ratio()(-10, 1)&gt;&gt;&gt; (0).as_integer_ratio()(0, 1)</Doc>
-<Value>Live.MidiMap.MapMode.bit_count<Description>Value</Description></Value>
-<Doc>Number of ones in the binary representation of the absolute value of self.Also known as the population count.&gt;&gt;&gt; bin(13)'0b1101'&gt;&gt;&gt; (13).bit_count()3</Doc>
 <Value>Live.MidiMap.MapMode.bit_length<Description>Value</Description></Value>
 <Doc>Number of bits necessary to represent self in binary.&gt;&gt;&gt; bin(37)'0b100101'&gt;&gt;&gt; (37).bit_length()6</Doc>
 <Value>Live.MidiMap.MapMode.conjugate<Description>Value</Description></Value>
@@ -5246,10 +5166,6 @@ Live API version 12.1.5
 <Doc>abs(self)</Doc>
 <Value>Live.MixerDevice.MixerDevice.crossfade_assignments.type<Description>Value</Description></Value>
 <Doc>type(object) -&gt; the object's typetype(name, bases, dict, **kwds) -&gt; a new type</Doc>
-<Value>Live.MixerDevice.MixerDevice.crossfade_assignments.as_integer_ratio<Description>Value</Description></Value>
-<Doc>Return integer ratio.Return a pair of integers, whose ratio is exactly equal to the original intand with a positive denominator.&gt;&gt;&gt; (10).as_integer_ratio()(10, 1)&gt;&gt;&gt; (-10).as_integer_ratio()(-10, 1)&gt;&gt;&gt; (0).as_integer_ratio()(0, 1)</Doc>
-<Value>Live.MixerDevice.MixerDevice.crossfade_assignments.bit_count<Description>Value</Description></Value>
-<Doc>Number of ones in the binary representation of the absolute value of self.Also known as the population count.&gt;&gt;&gt; bin(13)'0b1101'&gt;&gt;&gt; (13).bit_count()3</Doc>
 <Value>Live.MixerDevice.MixerDevice.crossfade_assignments.bit_length<Description>Value</Description></Value>
 <Doc>Number of bits necessary to represent self in binary.&gt;&gt;&gt; bin(37)'0b100101'&gt;&gt;&gt; (37).bit_length()6</Doc>
 <Value>Live.MixerDevice.MixerDevice.crossfade_assignments.conjugate<Description>Value</Description></Value>
@@ -5276,10 +5192,6 @@ Live API version 12.1.5
 <Doc>Return the integer represented by the given array of bytes.  bytes Holds the array of bytes to convert.  The argument must either support the buffer protocol or be an iterable object producing bytes. Bytes and bytearray are examples of built-in objects that support the buffer protocol.  byteorder The byte order used to represent the integer.  If byteorder is 'big', the most significant byte is at the beginning of the byte array.  If byteorder is 'little', the most significant byte is at the end of the byte array.  To request the native byte order of the host system, use `sys.byteorder' as the byte order value.  Default is to use 'big'.  signed Indicates whether two's complement is used to represent the integer.</Doc>
 <Value>Live.MixerDevice.MixerDevice.panning_modes.type<Description>Value</Description></Value>
 <Doc>type(object) -&gt; the object's typetype(name, bases, dict, **kwds) -&gt; a new type</Doc>
-<Value>Live.MixerDevice.MixerDevice.panning_modes.as_integer_ratio<Description>Value</Description></Value>
-<Doc>Return integer ratio.Return a pair of integers, whose ratio is exactly equal to the original intand with a positive denominator.&gt;&gt;&gt; (10).as_integer_ratio()(10, 1)&gt;&gt;&gt; (-10).as_integer_ratio()(-10, 1)&gt;&gt;&gt; (0).as_integer_ratio()(0, 1)</Doc>
-<Value>Live.MixerDevice.MixerDevice.panning_modes.bit_count<Description>Value</Description></Value>
-<Doc>Number of ones in the binary representation of the absolute value of self.Also known as the population count.&gt;&gt;&gt; bin(13)'0b1101'&gt;&gt;&gt; (13).bit_count()3</Doc>
 <Value>Live.MixerDevice.MixerDevice.panning_modes.bit_length<Description>Value</Description></Value>
 <Doc>Number of bits necessary to represent self in binary.&gt;&gt;&gt; bin(37)'0b100101'&gt;&gt;&gt; (37).bit_length()6</Doc>
 <Value>Live.MixerDevice.MixerDevice.panning_modes.conjugate<Description>Value</Description></Value>
@@ -6279,10 +6191,6 @@ Live API version 12.1.5
 <Doc>Return the integer represented by the given array of bytes.  bytes Holds the array of bytes to convert.  The argument must either support the buffer protocol or be an iterable object producing bytes. Bytes and bytearray are examples of built-in objects that support the buffer protocol.  byteorder The byte order used to represent the integer.  If byteorder is 'big', the most significant byte is at the beginning of the byte array.  If byteorder is 'little', the most significant byte is at the end of the byte array.  To request the native byte order of the host system, use `sys.byteorder' as the byte order value.  Default is to use 'big'.  signed Indicates whether two's complement is used to represent the integer.</Doc>
 <Value>Live.Sample.SlicingBeatDivision.type<Description>Value</Description></Value>
 <Doc>type(object) -&gt; the object's typetype(name, bases, dict, **kwds) -&gt; a new type</Doc>
-<Value>Live.Sample.SlicingBeatDivision.as_integer_ratio<Description>Value</Description></Value>
-<Doc>Return integer ratio.Return a pair of integers, whose ratio is exactly equal to the original intand with a positive denominator.&gt;&gt;&gt; (10).as_integer_ratio()(10, 1)&gt;&gt;&gt; (-10).as_integer_ratio()(-10, 1)&gt;&gt;&gt; (0).as_integer_ratio()(0, 1)</Doc>
-<Value>Live.Sample.SlicingBeatDivision.bit_count<Description>Value</Description></Value>
-<Doc>Number of ones in the binary representation of the absolute value of self.Also known as the population count.&gt;&gt;&gt; bin(13)'0b1101'&gt;&gt;&gt; (13).bit_count()3</Doc>
 <Value>Live.Sample.SlicingBeatDivision.bit_length<Description>Value</Description></Value>
 <Doc>Number of bits necessary to represent self in binary.&gt;&gt;&gt; bin(37)'0b100101'&gt;&gt;&gt; (37).bit_length()6</Doc>
 <Value>Live.Sample.SlicingBeatDivision.conjugate<Description>Value</Description></Value>
@@ -6320,11 +6228,7 @@ Live API version 12.1.5
 <Doc>Return the integer represented by the given array of bytes.  bytes Holds the array of bytes to convert.  The argument must either support the buffer protocol or be an iterable object producing bytes. Bytes and bytearray are examples of built-in objects that support the buffer protocol.  byteorder The byte order used to represent the integer.  If byteorder is 'big', the most significant byte is at the beginning of the byte array.  If byteorder is 'little', the most significant byte is at the end of the byte array.  To request the native byte order of the host system, use `sys.byteorder' as the byte order value.  Default is to use 'big'.  signed Indicates whether two's complement is used to represent the integer.</Doc>
 <Value>Live.Sample.SlicingStyle.type<Description>Value</Description></Value>
 <Doc>type(object) -&gt; the object's typetype(name, bases, dict, **kwds) -&gt; a new type</Doc>
-<Value>Live.Sample.SlicingStyle.as_integer_ratio<Description>Value</Description></Value>
-<Doc>Return integer ratio.Return a pair of integers, whose ratio is exactly equal to the original intand with a positive denominator.&gt;&gt;&gt; (10).as_integer_ratio()(10, 1)&gt;&gt;&gt; (-10).as_integer_ratio()(-10, 1)&gt;&gt;&gt; (0).as_integer_ratio()(0, 1)</Doc>
 <Value>Live.Sample.SlicingStyle.beat<Description>Value</Description></Value>
-<Value>Live.Sample.SlicingStyle.bit_count<Description>Value</Description></Value>
-<Doc>Number of ones in the binary representation of the absolute value of self.Also known as the population count.&gt;&gt;&gt; bin(13)'0b1101'&gt;&gt;&gt; (13).bit_count()3</Doc>
 <Value>Live.Sample.SlicingStyle.bit_length<Description>Value</Description></Value>
 <Doc>Number of bits necessary to represent self in binary.&gt;&gt;&gt; bin(37)'0b100101'&gt;&gt;&gt; (37).bit_length()6</Doc>
 <Value>Live.Sample.SlicingStyle.conjugate<Description>Value</Description></Value>
@@ -6355,10 +6259,6 @@ Live API version 12.1.5
 <Value>Live.Sample.TransientLoopMode.type<Description>Value</Description></Value>
 <Doc>type(object) -&gt; the object's typetype(name, bases, dict, **kwds) -&gt; a new type</Doc>
 <Value>Live.Sample.TransientLoopMode.alternate<Description>Value</Description></Value>
-<Value>Live.Sample.TransientLoopMode.as_integer_ratio<Description>Value</Description></Value>
-<Doc>Return integer ratio.Return a pair of integers, whose ratio is exactly equal to the original intand with a positive denominator.&gt;&gt;&gt; (10).as_integer_ratio()(10, 1)&gt;&gt;&gt; (-10).as_integer_ratio()(-10, 1)&gt;&gt;&gt; (0).as_integer_ratio()(0, 1)</Doc>
-<Value>Live.Sample.TransientLoopMode.bit_count<Description>Value</Description></Value>
-<Doc>Number of ones in the binary representation of the absolute value of self.Also known as the population count.&gt;&gt;&gt; bin(13)'0b1101'&gt;&gt;&gt; (13).bit_count()3</Doc>
 <Value>Live.Sample.TransientLoopMode.bit_length<Description>Value</Description></Value>
 <Doc>Number of bits necessary to represent self in binary.&gt;&gt;&gt; bin(37)'0b100101'&gt;&gt;&gt; (37).bit_length()6</Doc>
 <Value>Live.Sample.TransientLoopMode.conjugate<Description>Value</Description></Value>
@@ -6699,10 +6599,6 @@ Live API version 12.1.5
 <Doc>Return the integer represented by the given array of bytes.  bytes Holds the array of bytes to convert.  The argument must either support the buffer protocol or be an iterable object producing bytes. Bytes and bytearray are examples of built-in objects that support the buffer protocol.  byteorder The byte order used to represent the integer.  If byteorder is 'big', the most significant byte is at the beginning of the byte array.  If byteorder is 'little', the most significant byte is at the end of the byte array.  To request the native byte order of the host system, use `sys.byteorder' as the byte order value.  Default is to use 'big'.  signed Indicates whether two's complement is used to represent the integer.</Doc>
 <Value>Live.SimplerDevice.PlaybackMode.type<Description>Value</Description></Value>
 <Doc>type(object) -&gt; the object's typetype(name, bases, dict, **kwds) -&gt; a new type</Doc>
-<Value>Live.SimplerDevice.PlaybackMode.as_integer_ratio<Description>Value</Description></Value>
-<Doc>Return integer ratio.Return a pair of integers, whose ratio is exactly equal to the original intand with a positive denominator.&gt;&gt;&gt; (10).as_integer_ratio()(10, 1)&gt;&gt;&gt; (-10).as_integer_ratio()(-10, 1)&gt;&gt;&gt; (0).as_integer_ratio()(0, 1)</Doc>
-<Value>Live.SimplerDevice.PlaybackMode.bit_count<Description>Value</Description></Value>
-<Doc>Number of ones in the binary representation of the absolute value of self.Also known as the population count.&gt;&gt;&gt; bin(13)'0b1101'&gt;&gt;&gt; (13).bit_count()3</Doc>
 <Value>Live.SimplerDevice.PlaybackMode.bit_length<Description>Value</Description></Value>
 <Doc>Number of bits necessary to represent self in binary.&gt;&gt;&gt; bin(37)'0b100101'&gt;&gt;&gt; (37).bit_length()6</Doc>
 <Value>Live.SimplerDevice.PlaybackMode.classic<Description>Value</Description></Value>
@@ -7180,10 +7076,6 @@ Live API version 12.1.5
 <Doc>Return the integer represented by the given array of bytes.  bytes Holds the array of bytes to convert.  The argument must either support the buffer protocol or be an iterable object producing bytes. Bytes and bytearray are examples of built-in objects that support the buffer protocol.  byteorder The byte order used to represent the integer.  If byteorder is 'big', the most significant byte is at the beginning of the byte array.  If byteorder is 'little', the most significant byte is at the end of the byte array.  To request the native byte order of the host system, use `sys.byteorder' as the byte order value.  Default is to use 'big'.  signed Indicates whether two's complement is used to represent the integer.</Doc>
 <Value>Live.SimplerDevice.SlicingPlaybackMode.type<Description>Value</Description></Value>
 <Doc>type(object) -&gt; the object's typetype(name, bases, dict, **kwds) -&gt; a new type</Doc>
-<Value>Live.SimplerDevice.SlicingPlaybackMode.as_integer_ratio<Description>Value</Description></Value>
-<Doc>Return integer ratio.Return a pair of integers, whose ratio is exactly equal to the original intand with a positive denominator.&gt;&gt;&gt; (10).as_integer_ratio()(10, 1)&gt;&gt;&gt; (-10).as_integer_ratio()(-10, 1)&gt;&gt;&gt; (0).as_integer_ratio()(0, 1)</Doc>
-<Value>Live.SimplerDevice.SlicingPlaybackMode.bit_count<Description>Value</Description></Value>
-<Doc>Number of ones in the binary representation of the absolute value of self.Also known as the population count.&gt;&gt;&gt; bin(13)'0b1101'&gt;&gt;&gt; (13).bit_count()3</Doc>
 <Value>Live.SimplerDevice.SlicingPlaybackMode.bit_length<Description>Value</Description></Value>
 <Doc>Number of bits necessary to represent self in binary.&gt;&gt;&gt; bin(37)'0b100101'&gt;&gt;&gt; (37).bit_length()6</Doc>
 <Value>Live.SimplerDevice.SlicingPlaybackMode.conjugate<Description>Value</Description></Value>
@@ -7227,12 +7119,8 @@ Live API version 12.1.5
 <Doc>type(object) -&gt; the object's typetype(name, bases, dict, **kwds) -&gt; a new type</Doc>
 <Value>Live.Song.CaptureDestination.arrangement<Description>Value</Description></Value>
 <Doc>The destination for MIDI capture.</Doc>
-<Value>Live.Song.CaptureDestination.as_integer_ratio<Description>Value</Description></Value>
-<Doc>Return integer ratio.Return a pair of integers, whose ratio is exactly equal to the original intand with a positive denominator.&gt;&gt;&gt; (10).as_integer_ratio()(10, 1)&gt;&gt;&gt; (-10).as_integer_ratio()(-10, 1)&gt;&gt;&gt; (0).as_integer_ratio()(0, 1)</Doc>
 <Value>Live.Song.CaptureDestination.auto<Description>Value</Description></Value>
 <Doc>The destination for MIDI capture.</Doc>
-<Value>Live.Song.CaptureDestination.bit_count<Description>Value</Description></Value>
-<Doc>Number of ones in the binary representation of the absolute value of self.Also known as the population count.&gt;&gt;&gt; bin(13)'0b1101'&gt;&gt;&gt; (13).bit_count()3</Doc>
 <Value>Live.Song.CaptureDestination.bit_length<Description>Value</Description></Value>
 <Doc>Number of bits necessary to represent self in binary.&gt;&gt;&gt; bin(37)'0b100101'&gt;&gt;&gt; (37).bit_length()6</Doc>
 <Value>Live.Song.CaptureDestination.conjugate<Description>Value</Description></Value>
@@ -7266,10 +7154,6 @@ Live API version 12.1.5
 <Doc>The capture mode that is used for capture and insert scene.</Doc>
 <Value>Live.Song.CaptureMode.all_except_selected<Description>Value</Description></Value>
 <Doc>The capture mode that is used for capture and insert scene.</Doc>
-<Value>Live.Song.CaptureMode.as_integer_ratio<Description>Value</Description></Value>
-<Doc>Return integer ratio.Return a pair of integers, whose ratio is exactly equal to the original intand with a positive denominator.&gt;&gt;&gt; (10).as_integer_ratio()(10, 1)&gt;&gt;&gt; (-10).as_integer_ratio()(-10, 1)&gt;&gt;&gt; (0).as_integer_ratio()(0, 1)</Doc>
-<Value>Live.Song.CaptureMode.bit_count<Description>Value</Description></Value>
-<Doc>Number of ones in the binary representation of the absolute value of self.Also known as the population count.&gt;&gt;&gt; bin(13)'0b1101'&gt;&gt;&gt; (13).bit_count()3</Doc>
 <Value>Live.Song.CaptureMode.bit_length<Description>Value</Description></Value>
 <Doc>Number of bits necessary to represent self in binary.&gt;&gt;&gt; bin(37)'0b100101'&gt;&gt;&gt; (37).bit_length()6</Doc>
 <Value>Live.Song.CaptureMode.conjugate<Description>Value</Description></Value>
@@ -7335,10 +7219,6 @@ Live API version 12.1.5
 <Doc>Return the integer represented by the given array of bytes.  bytes Holds the array of bytes to convert.  The argument must either support the buffer protocol or be an iterable object producing bytes. Bytes and bytearray are examples of built-in objects that support the buffer protocol.  byteorder The byte order used to represent the integer.  If byteorder is 'big', the most significant byte is at the beginning of the byte array.  If byteorder is 'little', the most significant byte is at the end of the byte array.  To request the native byte order of the host system, use `sys.byteorder' as the byte order value.  Default is to use 'big'.  signed Indicates whether two's complement is used to represent the integer.</Doc>
 <Value>Live.Song.Quantization.type<Description>Value</Description></Value>
 <Doc>type(object) -&gt; the object's typetype(name, bases, dict, **kwds) -&gt; a new type</Doc>
-<Value>Live.Song.Quantization.as_integer_ratio<Description>Value</Description></Value>
-<Doc>Return integer ratio.Return a pair of integers, whose ratio is exactly equal to the original intand with a positive denominator.&gt;&gt;&gt; (10).as_integer_ratio()(10, 1)&gt;&gt;&gt; (-10).as_integer_ratio()(-10, 1)&gt;&gt;&gt; (0).as_integer_ratio()(0, 1)</Doc>
-<Value>Live.Song.Quantization.bit_count<Description>Value</Description></Value>
-<Doc>Number of ones in the binary representation of the absolute value of self.Also known as the population count.&gt;&gt;&gt; bin(13)'0b1101'&gt;&gt;&gt; (13).bit_count()3</Doc>
 <Value>Live.Song.Quantization.bit_length<Description>Value</Description></Value>
 <Doc>Number of bits necessary to represent self in binary.&gt;&gt;&gt; bin(37)'0b100101'&gt;&gt;&gt; (37).bit_length()6</Doc>
 <Value>Live.Song.Quantization.conjugate<Description>Value</Description></Value>
@@ -7379,10 +7259,6 @@ Live API version 12.1.5
 <Doc>Return the integer represented by the given array of bytes.  bytes Holds the array of bytes to convert.  The argument must either support the buffer protocol or be an iterable object producing bytes. Bytes and bytearray are examples of built-in objects that support the buffer protocol.  byteorder The byte order used to represent the integer.  If byteorder is 'big', the most significant byte is at the beginning of the byte array.  If byteorder is 'little', the most significant byte is at the end of the byte array.  To request the native byte order of the host system, use `sys.byteorder' as the byte order value.  Default is to use 'big'.  signed Indicates whether two's complement is used to represent the integer.</Doc>
 <Value>Live.Song.RecordingQuantization.type<Description>Value</Description></Value>
 <Doc>type(object) -&gt; the object's typetype(name, bases, dict, **kwds) -&gt; a new type</Doc>
-<Value>Live.Song.RecordingQuantization.as_integer_ratio<Description>Value</Description></Value>
-<Doc>Return integer ratio.Return a pair of integers, whose ratio is exactly equal to the original intand with a positive denominator.&gt;&gt;&gt; (10).as_integer_ratio()(10, 1)&gt;&gt;&gt; (-10).as_integer_ratio()(-10, 1)&gt;&gt;&gt; (0).as_integer_ratio()(0, 1)</Doc>
-<Value>Live.Song.RecordingQuantization.bit_count<Description>Value</Description></Value>
-<Doc>Number of ones in the binary representation of the absolute value of self.Also known as the population count.&gt;&gt;&gt; bin(13)'0b1101'&gt;&gt;&gt; (13).bit_count()3</Doc>
 <Value>Live.Song.RecordingQuantization.bit_length<Description>Value</Description></Value>
 <Doc>Number of bits necessary to represent self in binary.&gt;&gt;&gt; bin(37)'0b100101'&gt;&gt;&gt; (37).bit_length()6</Doc>
 <Value>Live.Song.RecordingQuantization.conjugate<Description>Value</Description></Value>
@@ -7418,10 +7294,6 @@ Live API version 12.1.5
 <Doc>Return the integer represented by the given array of bytes.  bytes Holds the array of bytes to convert.  The argument must either support the buffer protocol or be an iterable object producing bytes. Bytes and bytearray are examples of built-in objects that support the buffer protocol.  byteorder The byte order used to represent the integer.  If byteorder is 'big', the most significant byte is at the beginning of the byte array.  If byteorder is 'little', the most significant byte is at the end of the byte array.  To request the native byte order of the host system, use `sys.byteorder' as the byte order value.  Default is to use 'big'.  signed Indicates whether two's complement is used to represent the integer.</Doc>
 <Value>Live.Song.SessionRecordStatus.type<Description>Value</Description></Value>
 <Doc>type(object) -&gt; the object's typetype(name, bases, dict, **kwds) -&gt; a new type</Doc>
-<Value>Live.Song.SessionRecordStatus.as_integer_ratio<Description>Value</Description></Value>
-<Doc>Return integer ratio.Return a pair of integers, whose ratio is exactly equal to the original intand with a positive denominator.&gt;&gt;&gt; (10).as_integer_ratio()(10, 1)&gt;&gt;&gt; (-10).as_integer_ratio()(-10, 1)&gt;&gt;&gt; (0).as_integer_ratio()(0, 1)</Doc>
-<Value>Live.Song.SessionRecordStatus.bit_count<Description>Value</Description></Value>
-<Doc>Number of ones in the binary representation of the absolute value of self.Also known as the population count.&gt;&gt;&gt; bin(13)'0b1101'&gt;&gt;&gt; (13).bit_count()3</Doc>
 <Value>Live.Song.SessionRecordStatus.bit_length<Description>Value</Description></Value>
 <Doc>Number of bits necessary to represent self in binary.&gt;&gt;&gt; bin(37)'0b100101'&gt;&gt;&gt; (37).bit_length()6</Doc>
 <Value>Live.Song.SessionRecordStatus.conjugate<Description>Value</Description></Value>
@@ -8433,10 +8305,6 @@ Live API version 12.1.5
 <Doc>Return the integer represented by the given array of bytes.  bytes Holds the array of bytes to convert.  The argument must either support the buffer protocol or be an iterable object producing bytes. Bytes and bytearray are examples of built-in objects that support the buffer protocol.  byteorder The byte order used to represent the integer.  If byteorder is 'big', the most significant byte is at the beginning of the byte array.  If byteorder is 'little', the most significant byte is at the end of the byte array.  To request the native byte order of the host system, use `sys.byteorder' as the byte order value.  Default is to use 'big'.  signed Indicates whether two's complement is used to represent the integer.</Doc>
 <Value>Live.Song.TimeFormat.type<Description>Value</Description></Value>
 <Doc>type(object) -&gt; the object's typetype(name, bases, dict, **kwds) -&gt; a new type</Doc>
-<Value>Live.Song.TimeFormat.as_integer_ratio<Description>Value</Description></Value>
-<Doc>Return integer ratio.Return a pair of integers, whose ratio is exactly equal to the original intand with a positive denominator.&gt;&gt;&gt; (10).as_integer_ratio()(10, 1)&gt;&gt;&gt; (-10).as_integer_ratio()(-10, 1)&gt;&gt;&gt; (0).as_integer_ratio()(0, 1)</Doc>
-<Value>Live.Song.TimeFormat.bit_count<Description>Value</Description></Value>
-<Doc>Number of ones in the binary representation of the absolute value of self.Also known as the population count.&gt;&gt;&gt; bin(13)'0b1101'&gt;&gt;&gt; (13).bit_count()3</Doc>
 <Value>Live.Song.TimeFormat.bit_length<Description>Value</Description></Value>
 <Doc>Number of bits necessary to represent self in binary.&gt;&gt;&gt; bin(37)'0b100101'&gt;&gt;&gt; (37).bit_length()6</Doc>
 <Value>Live.Song.TimeFormat.conjugate<Description>Value</Description></Value>
@@ -8760,10 +8628,6 @@ Live API version 12.1.5
 <Doc>Return the integer represented by the given array of bytes.  bytes Holds the array of bytes to convert.  The argument must either support the buffer protocol or be an iterable object producing bytes. Bytes and bytearray are examples of built-in objects that support the buffer protocol.  byteorder The byte order used to represent the integer.  If byteorder is 'big', the most significant byte is at the beginning of the byte array.  If byteorder is 'little', the most significant byte is at the end of the byte array.  To request the native byte order of the host system, use `sys.byteorder' as the byte order value.  Default is to use 'big'.  signed Indicates whether two's complement is used to represent the integer.</Doc>
 <Value>Live.Track.DeviceInsertMode.type<Description>Value</Description></Value>
 <Doc>type(object) -&gt; the object's typetype(name, bases, dict, **kwds) -&gt; a new type</Doc>
-<Value>Live.Track.DeviceInsertMode.as_integer_ratio<Description>Value</Description></Value>
-<Doc>Return integer ratio.Return a pair of integers, whose ratio is exactly equal to the original intand with a positive denominator.&gt;&gt;&gt; (10).as_integer_ratio()(10, 1)&gt;&gt;&gt; (-10).as_integer_ratio()(-10, 1)&gt;&gt;&gt; (0).as_integer_ratio()(0, 1)</Doc>
-<Value>Live.Track.DeviceInsertMode.bit_count<Description>Value</Description></Value>
-<Doc>Number of ones in the binary representation of the absolute value of self.Also known as the population count.&gt;&gt;&gt; bin(13)'0b1101'&gt;&gt;&gt; (13).bit_count()3</Doc>
 <Value>Live.Track.DeviceInsertMode.bit_length<Description>Value</Description></Value>
 <Doc>Number of bits necessary to represent self in binary.&gt;&gt;&gt; bin(37)'0b100101'&gt;&gt;&gt; (37).bit_length()6</Doc>
 <Value>Live.Track.DeviceInsertMode.conjugate<Description>Value</Description></Value>
@@ -8802,10 +8666,6 @@ Live API version 12.1.5
 <Doc>Return the integer represented by the given array of bytes.  bytes Holds the array of bytes to convert.  The argument must either support the buffer protocol or be an iterable object producing bytes. Bytes and bytearray are examples of built-in objects that support the buffer protocol.  byteorder The byte order used to represent the integer.  If byteorder is 'big', the most significant byte is at the beginning of the byte array.  If byteorder is 'little', the most significant byte is at the end of the byte array.  To request the native byte order of the host system, use `sys.byteorder' as the byte order value.  Default is to use 'big'.  signed Indicates whether two's complement is used to represent the integer.</Doc>
 <Value>Live.Track.RoutingChannelLayout.type<Description>Value</Description></Value>
 <Doc>type(object) -&gt; the object's typetype(name, bases, dict, **kwds) -&gt; a new type</Doc>
-<Value>Live.Track.RoutingChannelLayout.as_integer_ratio<Description>Value</Description></Value>
-<Doc>Return integer ratio.Return a pair of integers, whose ratio is exactly equal to the original intand with a positive denominator.&gt;&gt;&gt; (10).as_integer_ratio()(10, 1)&gt;&gt;&gt; (-10).as_integer_ratio()(-10, 1)&gt;&gt;&gt; (0).as_integer_ratio()(0, 1)</Doc>
-<Value>Live.Track.RoutingChannelLayout.bit_count<Description>Value</Description></Value>
-<Doc>Number of ones in the binary representation of the absolute value of self.Also known as the population count.&gt;&gt;&gt; bin(13)'0b1101'&gt;&gt;&gt; (13).bit_count()3</Doc>
 <Value>Live.Track.RoutingChannelLayout.bit_length<Description>Value</Description></Value>
 <Doc>Number of bits necessary to represent self in binary.&gt;&gt;&gt; bin(37)'0b100101'&gt;&gt;&gt; (37).bit_length()6</Doc>
 <Value>Live.Track.RoutingChannelLayout.conjugate<Description>Value</Description></Value>
@@ -8857,10 +8717,6 @@ Live API version 12.1.5
 <Doc>Return the integer represented by the given array of bytes.  bytes Holds the array of bytes to convert.  The argument must either support the buffer protocol or be an iterable object producing bytes. Bytes and bytearray are examples of built-in objects that support the buffer protocol.  byteorder The byte order used to represent the integer.  If byteorder is 'big', the most significant byte is at the beginning of the byte array.  If byteorder is 'little', the most significant byte is at the end of the byte array.  To request the native byte order of the host system, use `sys.byteorder' as the byte order value.  Default is to use 'big'.  signed Indicates whether two's complement is used to represent the integer.</Doc>
 <Value>Live.Track.RoutingTypeCategory.type<Description>Value</Description></Value>
 <Doc>type(object) -&gt; the object's typetype(name, bases, dict, **kwds) -&gt; a new type</Doc>
-<Value>Live.Track.RoutingTypeCategory.as_integer_ratio<Description>Value</Description></Value>
-<Doc>Return integer ratio.Return a pair of integers, whose ratio is exactly equal to the original intand with a positive denominator.&gt;&gt;&gt; (10).as_integer_ratio()(10, 1)&gt;&gt;&gt; (-10).as_integer_ratio()(-10, 1)&gt;&gt;&gt; (0).as_integer_ratio()(0, 1)</Doc>
-<Value>Live.Track.RoutingTypeCategory.bit_count<Description>Value</Description></Value>
-<Doc>Number of ones in the binary representation of the absolute value of self.Also known as the population count.&gt;&gt;&gt; bin(13)'0b1101'&gt;&gt;&gt; (13).bit_count()3</Doc>
 <Value>Live.Track.RoutingTypeCategory.bit_length<Description>Value</Description></Value>
 <Doc>Number of bits necessary to represent self in binary.&gt;&gt;&gt; bin(37)'0b100101'&gt;&gt;&gt; (37).bit_length()6</Doc>
 <Value>Live.Track.RoutingTypeCategory.conjugate<Description>Value</Description></Value>
@@ -9660,10 +9516,6 @@ Live API version 12.1.5
 <Doc>abs(self)</Doc>
 <Value>Live.Track.Track.monitoring_states.type<Description>Value</Description></Value>
 <Doc>type(object) -&gt; the object's typetype(name, bases, dict, **kwds) -&gt; a new type</Doc>
-<Value>Live.Track.Track.monitoring_states.as_integer_ratio<Description>Value</Description></Value>
-<Doc>Return integer ratio.Return a pair of integers, whose ratio is exactly equal to the original intand with a positive denominator.&gt;&gt;&gt; (10).as_integer_ratio()(10, 1)&gt;&gt;&gt; (-10).as_integer_ratio()(-10, 1)&gt;&gt;&gt; (0).as_integer_ratio()(0, 1)</Doc>
-<Value>Live.Track.Track.monitoring_states.bit_count<Description>Value</Description></Value>
-<Doc>Number of ones in the binary representation of the absolute value of self.Also known as the population count.&gt;&gt;&gt; bin(13)'0b1101'&gt;&gt;&gt; (13).bit_count()3</Doc>
 <Value>Live.Track.Track.monitoring_states.bit_length<Description>Value</Description></Value>
 <Doc>Number of bits necessary to represent self in binary.&gt;&gt;&gt; bin(37)'0b100101'&gt;&gt;&gt; (37).bit_length()6</Doc>
 <Value>Live.Track.Track.monitoring_states.conjugate<Description>Value</Description></Value>
@@ -9791,10 +9643,6 @@ Live API version 12.1.5
 <Doc>Return the integer represented by the given array of bytes.  bytes Holds the array of bytes to convert.  The argument must either support the buffer protocol or be an iterable object producing bytes. Bytes and bytearray are examples of built-in objects that support the buffer protocol.  byteorder The byte order used to represent the integer.  If byteorder is 'big', the most significant byte is at the beginning of the byte array.  If byteorder is 'little', the most significant byte is at the end of the byte array.  To request the native byte order of the host system, use `sys.byteorder' as the byte order value.  Default is to use 'big'.  signed Indicates whether two's complement is used to represent the integer.</Doc>
 <Value>Live.WavetableDevice.EffectMode.type<Description>Value</Description></Value>
 <Doc>type(object) -&gt; the object's typetype(name, bases, dict, **kwds) -&gt; a new type</Doc>
-<Value>Live.WavetableDevice.EffectMode.as_integer_ratio<Description>Value</Description></Value>
-<Doc>Return integer ratio.Return a pair of integers, whose ratio is exactly equal to the original intand with a positive denominator.&gt;&gt;&gt; (10).as_integer_ratio()(10, 1)&gt;&gt;&gt; (-10).as_integer_ratio()(-10, 1)&gt;&gt;&gt; (0).as_integer_ratio()(0, 1)</Doc>
-<Value>Live.WavetableDevice.EffectMode.bit_count<Description>Value</Description></Value>
-<Doc>Number of ones in the binary representation of the absolute value of self.Also known as the population count.&gt;&gt;&gt; bin(13)'0b1101'&gt;&gt;&gt; (13).bit_count()3</Doc>
 <Value>Live.WavetableDevice.EffectMode.bit_length<Description>Value</Description></Value>
 <Doc>Number of bits necessary to represent self in binary.&gt;&gt;&gt; bin(37)'0b100101'&gt;&gt;&gt; (37).bit_length()6</Doc>
 <Value>Live.WavetableDevice.EffectMode.conjugate<Description>Value</Description></Value>
@@ -9825,10 +9673,6 @@ Live API version 12.1.5
 <Doc>Return the integer represented by the given array of bytes.  bytes Holds the array of bytes to convert.  The argument must either support the buffer protocol or be an iterable object producing bytes. Bytes and bytearray are examples of built-in objects that support the buffer protocol.  byteorder The byte order used to represent the integer.  If byteorder is 'big', the most significant byte is at the beginning of the byte array.  If byteorder is 'little', the most significant byte is at the end of the byte array.  To request the native byte order of the host system, use `sys.byteorder' as the byte order value.  Default is to use 'big'.  signed Indicates whether two's complement is used to represent the integer.</Doc>
 <Value>Live.WavetableDevice.FilterRouting.type<Description>Value</Description></Value>
 <Doc>type(object) -&gt; the object's typetype(name, bases, dict, **kwds) -&gt; a new type</Doc>
-<Value>Live.WavetableDevice.FilterRouting.as_integer_ratio<Description>Value</Description></Value>
-<Doc>Return integer ratio.Return a pair of integers, whose ratio is exactly equal to the original intand with a positive denominator.&gt;&gt;&gt; (10).as_integer_ratio()(10, 1)&gt;&gt;&gt; (-10).as_integer_ratio()(-10, 1)&gt;&gt;&gt; (0).as_integer_ratio()(0, 1)</Doc>
-<Value>Live.WavetableDevice.FilterRouting.bit_count<Description>Value</Description></Value>
-<Doc>Number of ones in the binary representation of the absolute value of self.Also known as the population count.&gt;&gt;&gt; bin(13)'0b1101'&gt;&gt;&gt; (13).bit_count()3</Doc>
 <Value>Live.WavetableDevice.FilterRouting.bit_length<Description>Value</Description></Value>
 <Doc>Number of bits necessary to represent self in binary.&gt;&gt;&gt; bin(37)'0b100101'&gt;&gt;&gt; (37).bit_length()6</Doc>
 <Value>Live.WavetableDevice.FilterRouting.conjugate<Description>Value</Description></Value>
@@ -9859,10 +9703,6 @@ Live API version 12.1.5
 <Value>Live.WavetableDevice.ModulationSource.type<Description>Value</Description></Value>
 <Doc>type(object) -&gt; the object's typetype(name, bases, dict, **kwds) -&gt; a new type</Doc>
 <Value>Live.WavetableDevice.ModulationSource.amp_envelope<Description>Value</Description></Value>
-<Value>Live.WavetableDevice.ModulationSource.as_integer_ratio<Description>Value</Description></Value>
-<Doc>Return integer ratio.Return a pair of integers, whose ratio is exactly equal to the original intand with a positive denominator.&gt;&gt;&gt; (10).as_integer_ratio()(10, 1)&gt;&gt;&gt; (-10).as_integer_ratio()(-10, 1)&gt;&gt;&gt; (0).as_integer_ratio()(0, 1)</Doc>
-<Value>Live.WavetableDevice.ModulationSource.bit_count<Description>Value</Description></Value>
-<Doc>Number of ones in the binary representation of the absolute value of self.Also known as the population count.&gt;&gt;&gt; bin(13)'0b1101'&gt;&gt;&gt; (13).bit_count()3</Doc>
 <Value>Live.WavetableDevice.ModulationSource.bit_length<Description>Value</Description></Value>
 <Doc>Number of bits necessary to represent self in binary.&gt;&gt;&gt; bin(37)'0b100101'&gt;&gt;&gt; (37).bit_length()6</Doc>
 <Value>Live.WavetableDevice.ModulationSource.conjugate<Description>Value</Description></Value>
@@ -9899,10 +9739,6 @@ Live API version 12.1.5
 <Doc>Return the integer represented by the given array of bytes.  bytes Holds the array of bytes to convert.  The argument must either support the buffer protocol or be an iterable object producing bytes. Bytes and bytearray are examples of built-in objects that support the buffer protocol.  byteorder The byte order used to represent the integer.  If byteorder is 'big', the most significant byte is at the beginning of the byte array.  If byteorder is 'little', the most significant byte is at the end of the byte array.  To request the native byte order of the host system, use `sys.byteorder' as the byte order value.  Default is to use 'big'.  signed Indicates whether two's complement is used to represent the integer.</Doc>
 <Value>Live.WavetableDevice.UnisonMode.type<Description>Value</Description></Value>
 <Doc>type(object) -&gt; the object's typetype(name, bases, dict, **kwds) -&gt; a new type</Doc>
-<Value>Live.WavetableDevice.UnisonMode.as_integer_ratio<Description>Value</Description></Value>
-<Doc>Return integer ratio.Return a pair of integers, whose ratio is exactly equal to the original intand with a positive denominator.&gt;&gt;&gt; (10).as_integer_ratio()(10, 1)&gt;&gt;&gt; (-10).as_integer_ratio()(-10, 1)&gt;&gt;&gt; (0).as_integer_ratio()(0, 1)</Doc>
-<Value>Live.WavetableDevice.UnisonMode.bit_count<Description>Value</Description></Value>
-<Doc>Number of ones in the binary representation of the absolute value of self.Also known as the population count.&gt;&gt;&gt; bin(13)'0b1101'&gt;&gt;&gt; (13).bit_count()3</Doc>
 <Value>Live.WavetableDevice.UnisonMode.bit_length<Description>Value</Description></Value>
 <Doc>Number of bits necessary to represent self in binary.&gt;&gt;&gt; bin(37)'0b100101'&gt;&gt;&gt; (37).bit_length()6</Doc>
 <Value>Live.WavetableDevice.UnisonMode.classic<Description>Value</Description></Value>
@@ -9936,10 +9772,6 @@ Live API version 12.1.5
 <Doc>Return the integer represented by the given array of bytes.  bytes Holds the array of bytes to convert.  The argument must either support the buffer protocol or be an iterable object producing bytes. Bytes and bytearray are examples of built-in objects that support the buffer protocol.  byteorder The byte order used to represent the integer.  If byteorder is 'big', the most significant byte is at the beginning of the byte array.  If byteorder is 'little', the most significant byte is at the end of the byte array.  To request the native byte order of the host system, use `sys.byteorder' as the byte order value.  Default is to use 'big'.  signed Indicates whether two's complement is used to represent the integer.</Doc>
 <Value>Live.WavetableDevice.VoiceCount.type<Description>Value</Description></Value>
 <Doc>type(object) -&gt; the object's typetype(name, bases, dict, **kwds) -&gt; a new type</Doc>
-<Value>Live.WavetableDevice.VoiceCount.as_integer_ratio<Description>Value</Description></Value>
-<Doc>Return integer ratio.Return a pair of integers, whose ratio is exactly equal to the original intand with a positive denominator.&gt;&gt;&gt; (10).as_integer_ratio()(10, 1)&gt;&gt;&gt; (-10).as_integer_ratio()(-10, 1)&gt;&gt;&gt; (0).as_integer_ratio()(0, 1)</Doc>
-<Value>Live.WavetableDevice.VoiceCount.bit_count<Description>Value</Description></Value>
-<Doc>Number of ones in the binary representation of the absolute value of self.Also known as the population count.&gt;&gt;&gt; bin(13)'0b1101'&gt;&gt;&gt; (13).bit_count()3</Doc>
 <Value>Live.WavetableDevice.VoiceCount.bit_length<Description>Value</Description></Value>
 <Doc>Number of bits necessary to represent self in binary.&gt;&gt;&gt; bin(37)'0b100101'&gt;&gt;&gt; (37).bit_length()6</Doc>
 <Value>Live.WavetableDevice.VoiceCount.conjugate<Description>Value</Description></Value>
@@ -9973,10 +9805,6 @@ Live API version 12.1.5
 <Doc>Return the integer represented by the given array of bytes.  bytes Holds the array of bytes to convert.  The argument must either support the buffer protocol or be an iterable object producing bytes. Bytes and bytearray are examples of built-in objects that support the buffer protocol.  byteorder The byte order used to represent the integer.  If byteorder is 'big', the most significant byte is at the beginning of the byte array.  If byteorder is 'little', the most significant byte is at the end of the byte array.  To request the native byte order of the host system, use `sys.byteorder' as the byte order value.  Default is to use 'big'.  signed Indicates whether two's complement is used to represent the integer.</Doc>
 <Value>Live.WavetableDevice.Voicing.type<Description>Value</Description></Value>
 <Doc>type(object) -&gt; the object's typetype(name, bases, dict, **kwds) -&gt; a new type</Doc>
-<Value>Live.WavetableDevice.Voicing.as_integer_ratio<Description>Value</Description></Value>
-<Doc>Return integer ratio.Return a pair of integers, whose ratio is exactly equal to the original intand with a positive denominator.&gt;&gt;&gt; (10).as_integer_ratio()(10, 1)&gt;&gt;&gt; (-10).as_integer_ratio()(-10, 1)&gt;&gt;&gt; (0).as_integer_ratio()(0, 1)</Doc>
-<Value>Live.WavetableDevice.Voicing.bit_count<Description>Value</Description></Value>
-<Doc>Number of ones in the binary representation of the absolute value of self.Also known as the population count.&gt;&gt;&gt; bin(13)'0b1101'&gt;&gt;&gt; (13).bit_count()3</Doc>
 <Value>Live.WavetableDevice.Voicing.bit_length<Description>Value</Description></Value>
 <Doc>Number of bits necessary to represent self in binary.&gt;&gt;&gt; bin(37)'0b100101'&gt;&gt;&gt; (37).bit_length()6</Doc>
 <Value>Live.WavetableDevice.Voicing.conjugate<Description>Value</Description></Value>

@@ -13,13 +13,25 @@ for await (const file of Deno.readDir(".")) {
 
   console.log(`Cleaning up ${file.name}...`);
 
+  let ignoreNextLine = false;
+
   for (const line of lines) {
+    if (ignoreNextLine) {
+      ignoreNextLine = false;
+      continue;
+    }
+
     if (
       line === "" ||
       line.includes("<unnamed Boost.Python function>") ||
       line.includes(".__") ||
       line.includes("<Doc>__")
     ) {
+      continue;
+    }
+
+    if (line.includes(".as_integer_ratio") || line.includes(".bit_count")) {
+      ignoreNextLine = true;
       continue;
     }
 
